@@ -23,5 +23,5 @@ Unit?  [compact]? B
 
 5) afet mount .img  i did cd mnt/point and then i have to find in /etc/  ld.so.preload , open with sudo nano 
 6) comment with #  like this: #/usr/lib/arm-linux-gnueabihf/libcofi_rpi.so. then saved , exit and unmount the .img
-7) execute the script for run your virtual pi. 
+7) execute the script for run your virtual pi. listo!!
  
