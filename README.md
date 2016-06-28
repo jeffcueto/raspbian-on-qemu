@@ -24,11 +24,11 @@ Unit?  [compact]? B
 
   b) copy the offset of where the partition starts.
   
-  Number  Start          End            Size           Type     File system     Flags
+  Number   Start          End            Size           Type     File system     Flags
   
- 1      32256B         10733990399B   10733958144B   primary  ext4
+ 1           32256B         10733990399B   10733958144B   primary  ext4
  
- 2      10733990400B   21500881919B   10766891520B   primary  ext3
+ 2         10733990400B   21500881919B   10766891520B   primary  ext3
  
  c) sudo mount 2016-05-27-raspbian-jessie-lite.img -o loop,offset=32256  mnt/point
 
