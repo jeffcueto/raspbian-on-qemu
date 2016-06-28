@@ -1,11 +1,16 @@
 # raspbian-on-qemu
 Installing raspbian jessie lite on qemu
 In this tutorial for begeners as me we are going to install raspbian usin qemu(in this case i use ubuntu 16)
+
 1) install qemu ubuntu:
 sudo apt-get install qemu
+
 2) create or use your folder in my case i use ~/Documents
+
 3) download kernel for arm, i use kernel from  https://github.com/polaco1782/raspberry-qemu
+
 4) download raspbian jessie lite form official web https://www.raspberrypi.org/downloads/
+
 5) unzip  image raspbian jessie and then mount. for mount i have to do this:
 
   a) parted  2016-05-27-raspbian-jessie-lite.img hit enter the command line show this:
